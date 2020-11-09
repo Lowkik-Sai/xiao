@@ -1,4 +1,5 @@
 require('dotenv').config();
+require("./server.js");
 const { XIAO_TOKEN, OWNERS, XIAO_PREFIX, INVITE } = process.env;
 const path = require('path');
 const { Intents, MessageEmbed } = require('discord.js');
